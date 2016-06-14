@@ -4,14 +4,14 @@ html, body {
   width: 100%;
   height: 100%;
   font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
-  color: #5a5f69; }
+  font-size: 1.1em;
+  color: #e2e2e2; }
   html .content, body .content {
     width: 100%;
     height: 100%;
     position: relative;
     display: table;
-    background-color: #282c34;
-    color: white; }
+    background-color: #191c21; }
     html .content .red, body .content .red {
       color: #e06c75; }
     html .content .blue, body .content .blue {
@@ -21,31 +21,72 @@ html, body {
     html .content .pink, body .content .pink {
       color: #c678dd; }
     html .content .header, body .content .header {
-      display: table-cell; }
+      display: table;
+      width: 100%;
+      height: 100%; }
       html .content .header .headerContent, body .content .header .headerContent {
-        padding: 9%;
-        position: relative; }
+        padding: 8%;
+        position: relative;
+        text-align: center;
+        letter-spacing: 1px;
+        display: table-cell;
+        vertical-align: middle; }
+        html .content .header .headerContent img, body .content .header .headerContent img {
+          width: 35%;
+          height: auto;
+          position: relative;
+          display: inline-block;
+          vertical-align: middle;
+          border-radius: 50%; }
+        html .content .header .headerContent .photo, body .content .header .headerContent .photo {
+          width: 35%;
+          height: 500px;
+          position: relative;
+          display: inline-block;
+          vertical-align: middle;
+          background-position-x: -250px;
+          background-position-y: -15px; }
         html .content .header .headerContent .desc, body .content .header .headerContent .desc {
           display: inline-block;
           vertical-align: middle;
           max-width: 55%;
+          text-align: left;
           margin-left: 5%; }
           html .content .header .headerContent .desc .coreFunction, body .content .header .headerContent .desc .coreFunction {
             padding: 10px;
             padding-left: 30px; }
             html .content .header .headerContent .desc .coreFunction h1, body .content .header .headerContent .desc .coreFunction h1 {
               display: inline;
-              font-size: 22px;
+              font-size: 3em;
               margin: 0;
               padding: 0; }
             html .content .header .headerContent .desc .coreFunction p.first, body .content .header .headerContent .desc .coreFunction p.first {
               display: inline; }
-            html .content .header .headerContent .desc .coreFunction p, body .content .header .headerContent .desc .coreFunction p {
+            html .content .header .headerContent .desc .coreFunction p.line, body .content .header .headerContent .desc .coreFunction p.line {
               margin: 5px 0px; }
-        html .content .header .headerContent img, body .content .header .headerContent img {
-          max-width: 35%;
-          height: auto;
-          display: inline-block;
-          vertical-align: middle; }
+            html .content .header .headerContent .desc .coreFunction a, body .content .header .headerContent .desc .coreFunction a {
+              text-decoration: none;
+              cursor: pointer; }
+          html .content .header .headerContent .desc .closeFunction, body .content .header .headerContent .desc .closeFunction {
+            letter-spacing: 3px; }
+          html .content .header .headerContent .desc .socialNetwork ul, body .content .header .headerContent .desc .socialNetwork ul {
+            text-align: right;
+            padding: 0; }
+            html .content .header .headerContent .desc .socialNetwork ul li.social, body .content .header .headerContent .desc .socialNetwork ul li.social {
+              display: inline-block;
+              font-size: 1.3em;
+              margin-right: 20px; }
+              html .content .header .headerContent .desc .socialNetwork ul li.social a.facebook:hover, body .content .header .headerContent .desc .socialNetwork ul li.social a.facebook:hover {
+                color: #3b5998; }
+              html .content .header .headerContent .desc .socialNetwork ul li.social a.twitter:hover, body .content .header .headerContent .desc .socialNetwork ul li.social a.twitter:hover {
+                color: #1da1f2; }
+              html .content .header .headerContent .desc .socialNetwork ul li.social a.github:hover, body .content .header .headerContent .desc .socialNetwork ul li.social a.github:hover {
+                color: #4078c0; }
+              html .content .header .headerContent .desc .socialNetwork ul li.social a.linkedin:hover, body .content .header .headerContent .desc .socialNetwork ul li.social a.linkedin:hover {
+                color: #006fa6; }
+              html .content .header .headerContent .desc .socialNetwork ul li.social a, body .content .header .headerContent .desc .socialNetwork ul li.social a {
+                text-decoration: none;
+                color: #e2e2e2;
+                cursor: pointer; }
 
 /*# sourceMappingURL=styles.css.map*/
