@@ -4,7 +4,7 @@
   "description": "Site de Victor Piolin",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -d --watch",
+    "dev": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
