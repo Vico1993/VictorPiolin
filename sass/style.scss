@@ -4,7 +4,7 @@ $pink : #c678dd;
 $green : #7ea068;
 $blue : #61afef;
 $text_color : #e2e2e2;
-
+$orange : #f7a632;
 
 html, body {
   margin: 0;
@@ -38,6 +38,10 @@ html, body {
 
     .pink {
       color: $pink;
+    }
+
+    .orange {
+      color: $orange;
     }
 
     .header {
@@ -141,6 +145,14 @@ html, body {
                   cursor:pointer;
                 }
               }
+            }
+          }
+
+          &.waitingScreen {
+            text-align: center;
+
+            ul {
+              text-align: center;
             }
           }
         }
