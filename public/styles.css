@@ -91,7 +91,9 @@ html, body {
                 color: #e2e2e2;
                 cursor: pointer; }
           html .content .header .headerContent .desc.waitingScreen, body .content .header .headerContent .desc.waitingScreen {
-            text-align: center; }
+            text-align: center;
+            margin: 0;
+            padding: 0; }
             html .content .header .headerContent .desc.waitingScreen ul, body .content .header .headerContent .desc.waitingScreen ul {
               text-align: center; }
 
